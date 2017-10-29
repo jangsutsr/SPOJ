@@ -5,6 +5,8 @@ Solutions to SPOJ problems
 make build
 make run
 docker exec -it SPOJ bash
-cd SPOJ/
-make run PROBLEM_NAME=<problem name>
+$ cd SPOJ/
+$ make run PROBLEM_NAME=<problem name>
+$ exit
+make commit PROBLEM_NAME=<problem name>
 ```

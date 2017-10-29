@@ -6,7 +6,7 @@ run:
 
 exec:
 	gcc -Wall -g $$PROBLEM_NAME.c -o bin/$$PROBLEM_NAME.exe
-	cat inputs/$$PROBLEM_NAME.txt | bin/$$PROBLEM_NAME.exe
+	bin/$$PROBLEM_NAME.exe < inputs/$$PROBLEM_NAME.txt
 
 commit:
 	git add .
